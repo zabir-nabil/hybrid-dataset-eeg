@@ -1,0 +1,27 @@
+Decision tree :
+maximum number of splits : 4
+split criterion : Ginis Diversity Index
+Surrogate Decision Splits : Off
+Max Surrogates per node : 10
+Performance : 71.8%
+
+SVM
+Kernel function : Linear
+Box Constraint Level : 1
+Kernel Scale mode : Auto
+Multiscale method : One vs one
+Performance : 79.3%
+
+KNN
+Weighted KNN
+Number of neighbours : 10
+Distance metric : Euclidean
+Distance weight : Squared Inverse
+performance : 79.8%
+
+Ensemble
+Subspace Discriminant
+Number of learners : 200
+Learning rate : 0.1
+Subspace dimension : 25 
+performance : 80.7%

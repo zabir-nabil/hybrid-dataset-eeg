@@ -1,0 +1,2 @@
+feedforward networks, Scaled conjugate gradient backpropagation, cross entropy,
+mex calculation

@@ -1,0 +1,7 @@
+input_mat = features_response_A(:,1:50);
+target_mat_pre = features_response_A(:,51);
+target_mat = zeros(270,3);
+
+for dp = 1:270
+    cln = target_mat_pre(dp);
+    target_mat(dp,cln)
