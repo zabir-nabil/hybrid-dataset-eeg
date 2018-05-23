@@ -1,0 +1,22 @@
+Subject E, LH/RH, 5 channels default training - no parameter tuning
+5 channels, LH/RH, 48 samples
+[DWT: wden -> sqtwolog, soft threshold, mln, coif2_level 3]
+without PCA, 50 features
+
+Decision Tree - 77.1% (Simple)
+
+SVM - 85.4%
+
+Weighted KNN - 89.6%
+
+Subspace Discriminant Ensemble - 95.8%
+
+with PCA, 10 features
+
+Decision Tree - 85.4%
+
+SVM - 85.4%
+
+Weighted KNN - 75.0%
+
+Subspace Discriminant Ensemble - 87.5% (Learners:200, Subspace Dimension:9)

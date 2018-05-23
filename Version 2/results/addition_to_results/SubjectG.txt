@@ -1,0 +1,13 @@
+Subject G, 6 channels, LH/RH, 120 samples
+[DWT: wden -> sqtwolog, soft threshold, mln, coif2_level 3]
+without PCA, 60 features
+Decision Tree - 62.5%
+SVM - 70.8% (Box constraint level: 50)
+KNN - 67.5%
+Ensemble - 69.2%
+
+After PCA
+Decision Tree - 68.8% [M. Reduced performance with M. param tuning]     75.8% (Simple Tree)
+SVM - 65%
+Weighted KNN - 63.3%
+Ensemble - 69.2% (Number of learners: 1000, Subspace Dimension: 9)

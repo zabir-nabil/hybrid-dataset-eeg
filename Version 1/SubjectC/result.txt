@@ -25,3 +25,35 @@ Number of learners : 200
 Learning rate : 0.1
 Subspace dimension : 25 
 performance : 86.7%
+
+After PCA
+
+C_f2 = C_f(:,1:50);
+[coeff,score,latent,tsquared,explained] = pca(C_f2);
+explained =
+
+   74.6366
+   14.4948
+    6.6279
+    2.8441
+    1.1335
+    0.1311
+    0.0911
+    0.0165
+    0.0142
+    0.0103
+    0.0000
+    0.0000
+    0.0000
+............
+The first 10 components explain 100% of all variability.
+Decision Tree
+80.6%
+Linear SVM
+Manual Kernel Scale : 9
+81.7%
+Weighted KNN
+84.4%
+Ensemble Subspace Discriminant
+subspace dimension : 9, no of learners : 1000
+85.6%

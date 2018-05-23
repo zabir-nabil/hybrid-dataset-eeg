@@ -1,0 +1,62 @@
+Decision tree :
+maximum number of splits : 4
+split criterion : Ginis Diversity Index
+Surrogate Decision Splits : Off
+Max Surrogates per node : 10
+Performance : 71.8%
+
+SVM
+Kernel function : Linear
+Box Constraint Level : 1
+Kernel Scale mode : Auto
+Multiscale method : One vs one
+Performance : 79.3%
+
+KNN
+Weighted KNN
+Number of neighbours : 10
+Distance metric : Euclidean
+Distance weight : Squared Inverse
+performance : 79.8%
+
+Ensemble
+Subspace Discriminant
+Number of learners : 200
+Learning rate : 0.1
+Subspace dimension : 25 
+performance : 80.7%
+
+After PCA
+[coeff,score,latent,tsquared,explained] = pca(hb);
+
+explained =
+
+   99.9996
+    0.0003
+    0.0001
+    0.0000
+    0.0000
+    0.0000
+..........
+First 3 components explain 100% variability
+
+But still took first 10 principal components
+
+numberOfDimensions = 10;
+coeff = pca(hb_2);
+reducedDimension = coeff(:,1:numberOfDimensions);
+reducedData = hb_2 * reducedDimension;
+>> HB = [reducedData hb(:,51)];
+
+Decision Tree
+69.1%
+Weighted KNN
+74.2%
+SVM
+Kernel Scale = 10 (manual)
+80.4%
+Ensemble
+Subspace Discriminant
+No of learners 500
+Subspace dimension 9
+81.1%

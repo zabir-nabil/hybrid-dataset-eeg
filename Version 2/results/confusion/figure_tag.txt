@@ -1,0 +1,4 @@
+Figure X: a) Confusion Matrix for ensemble method with True Positive Rates (TPR)
+and False Negative Rates (FNR)
+b) Confusion Matrix for ensemble method with True Positive Rates (TPR)
+and False Negative Rates after dimensionality reduction (FNR)

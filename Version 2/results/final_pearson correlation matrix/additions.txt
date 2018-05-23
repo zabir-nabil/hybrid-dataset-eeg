@@ -1,0 +1,4 @@
+From Fig. 5, the features are highly correlated which can be observed in the
+correlation matrix. The less correlated features are 25 and 50. The scatter plot for these
+features is shown in Fig. 6. After applying PCA, the features are not correlated[BAAD ZABE - which can be observed in the
+correlation matrix].
