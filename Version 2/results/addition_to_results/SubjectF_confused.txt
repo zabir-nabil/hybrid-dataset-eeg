@@ -1,7 +1,7 @@
 Subject F, 6 channels, LH/RH, 150 samples
 [DWT: wden -> sqtwolog, soft threshold, mln, coif2_level 3]
 without PCA, 60 features
-Decision Tree - 47.6% [Manipulated]
+Decision Tree - 47.6% [M. parameter changed, perfpmance is poor]
 SVM - 49.3%
 KNN - 48%
 Ensemble - 50.0% (Number of learners:1000, Subspace dimension:30)
